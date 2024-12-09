@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Input file
-input_file="/store/EQUIPES/CHRODY/Hanae/ChromHMM/new_data2/resultats_3CN.txt"
-output_file="/store/EQUIPES/CHRODY/Hanae/ChromHMM/new_data2/resultats_3CN_corrected.txt"
+input_file="resultats_3CN.txt"
+output_file="resultats_3CN_corrected.txt"
 
 awk '
 {
