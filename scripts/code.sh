@@ -2,7 +2,7 @@
 mean_value=-0.0211774
 
 # Input file name
-input_file="/store/EQUIPES/CHRODY/Hanae/ChromHMM/new_data2/3NPC_cool_250kb.heatmap.2ndDeriv.relative.matrix"
+input_file="3NPC_cool_250kb.heatmap.2ndDeriv.relative.matrix"
 
 # Parameters for starting columns
 col_start_left=31  # Starting column number for the left loop
