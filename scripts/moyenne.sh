@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-input_file="/store/EQUIPES/CHRODY/Hanae/ChromHMM/new_data2/3ES_cool_250kb.heatmap.2ndDeriv.relative.matrix"
+input_file="3ES_cool_250kb.heatmap.2ndDeriv.relative.matrix"
 
 
 awk 'NR > 1 { 
