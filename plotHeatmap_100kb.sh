@@ -1,5 +1,6 @@
 # plotHeatmap_IS
 
+# Input variables:
 # output: considered matrix created by computeMatrix_IS (without the gz extension already written in the code)
 # colorMap: seismic
 
