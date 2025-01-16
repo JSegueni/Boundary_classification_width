@@ -1,8 +1,8 @@
 library(BRGenomics)
 
-Bonev_IS <- import.bw("Bonev_IS_from_Chang_2023.bw")
+Bonev_IS <- import.bw("Insulation_score_Bonev_2017_mES_from_Chang_2023.bw")
 
-Bonev_IS_dev <- import.bw("Derivative_Bonev_IS_from_Chang_2023.bw")
+Bonev_IS_dev <- import.bw("Derivative_Insulation_score_Bonev_2017_mES_from_Chang_2023.bw")
 
 derivative <- function(vec)
 {
@@ -22,4 +22,4 @@ Bonev_IS_second_dev <- GRanges(seqnames=seqnames(Bonev_IS_dev[2:length(Bonev_IS_
                                ranges=ranges(Bonev_IS_dev[2:length(Bonev_IS_dev)-1]),
                                score=second_dev_score)
 
-export.bw(Bonev_IS_second_dev, "Second_derivative_Bonev_IS.bw")
+export.bw(Bonev_IS_second_dev, "Second_derivative_Insulation_score_Bonev_2017_mES_from_Chang_2023.bw")
