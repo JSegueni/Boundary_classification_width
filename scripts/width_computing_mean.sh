@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-input_file="3ES_cool_250kb.heatmap.2ndDeriv.relative.matrix"
+input_file="Second_derivative_Insulation_score_Bonev_2017_mES_all_clusters_250kb_heatmap.relative.matrix"
 
 
 awk 'NR > 1 { 
