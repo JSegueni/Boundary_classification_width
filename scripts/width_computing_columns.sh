@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Input and output files
-input_file="resultats_3NPC_corrected.txt"
-output_file="resultats_3NPC_formatted.txt"
+input_file="results_mES_corrected.txt"
+output_file="results_mES_formatted.txt"
 
 # Process the file and format it with column headers
 awk '
