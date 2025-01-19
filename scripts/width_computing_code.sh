@@ -2,7 +2,7 @@
 mean_value=-0.0211774
 
 # Input file name
-input_file="Second_derivative_insulation_score_Bonev_2017_all_clusters_250kb_heatmap.relative..matrix"
+input_file="Second_derivative_Insulation_score_Bonev_2017_mES_all_clusters_250kb_heatmap.relative.matrix"
 
 # Parameters for starting columns
 col_start_left=31  # Starting column number for the left loop
