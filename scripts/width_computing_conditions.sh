@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Input file
-input_file="resultats_3CN.txt"
-output_file="resultats_3CN_corrected.txt"
+input_file="results_mES.txt"
+output_file="results_mES_corrected.txt"
 
 awk '
 {
